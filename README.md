@@ -1,6 +1,6 @@
 # Pearls of the Orient
-Dela Paz & Frias, 9-Potassium
-ComSci 3 Q1 AA Project Proposal
+###### Dela Paz & Frias, 9-Potassium
+###### ComSci 3 Q1 AA Project Proposal
 
 Pearls of the Orient is a website created to spread awareness about the depletion of natural resources in the Philippines. It aims to encourage people to take action and apply helpful practices in real life through making individual efforts, supporting advocacies, and fighting for wide-scale change. 
 
