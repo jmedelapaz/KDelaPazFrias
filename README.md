@@ -1,5 +1,4 @@
-# KDelaPazFrias
-Pearls of the Orient
+# Pearls of the Orient
 Dela Paz & Frias, 9-Potassium
 ComSci 3 Q1 AA Project Proposal
 
