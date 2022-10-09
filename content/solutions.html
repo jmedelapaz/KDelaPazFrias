@@ -15,42 +15,53 @@
 
 <body>
   <!-- Website Header -->
-  <div>
-    <div class="container">
-      <div style="padding:10px;">
+  <div class="websiteHeader">
+    <div class="headerTitle">
+      <div class="headerLogo">
         <img src="..\images\pearlsOfTheOrientLogo.png" height="60px" width="60px">
       </div>
 
-      <div class="text"">
-         <h1>PEARLS OF THE ORIENT</h1>
+      <div class="headerText">
+        <h1>PEARLS OF THE ORIENT</h1>
       </div>
     </div>
 
-    <div align=" center" style="position:relative; bottom:15px;">
-        <p>
-          <a href="..\index.html">Home</a> |
-          <a href="causesAndEffects.html">Causes and Effects</a> |
-          <b>Solutions</b> |
-          <a href="relatedOrganizations.html">Related Organizations</a> |
-          <a href="about.html">About</a> |
-          <a href="references.html">References</a>
-        </p>
+    <!-- webpages -->
+    <div class="headerNav" align="center">
+      <div>
+        <a href="..\index.html">Home</a>
+      </div>
+      <div>
+        <a href="..\content\causesAndEffects.html">Causes and Effects</a>
+      </div>
+      <div>
+        <b>Solutions</b>
+      </div>
+      <div>
+        <a href="..\content\relatedOrganizations.html">Related Organizations</a>
+      </div>
+      <div>
+        <a href="..\content\about.html">About</a>
+      </div>
+      <div>
+        <a href="..\content\references.html">References</a>
       </div>
     </div>
+  </div>
 
-    <!-- Website Content-->
+  <!-- Website Content-->
+  <div id="solutionsHeader">
+    <h3>These are possible things that Filipinos
+      can do about natural resource
+      depletion.</h3>
+  </div>
+
+  <div class="solutions">
     <div>
-      <br />
-      <hr />
-      <h3 style="padding: 10px; text-align: center; background-color: #c4d3d7">These are possible things that Filipinos
-        can do about natural resource
-        depletion.</h3>
-      <hr />
+      <img src="..\images\solutionsAtHomePic.jpg" />
     </div>
-
-    <div class="solutions">
-      <img src="..\images\solutionsAtHomePic.jpg" height="400" width="300" />
-      <h2 style="padding: 10px; background-color: #7993a0; color: white;"><i>AT HOME</i></h2>
+    <div>
+      <h2><i>AT HOME</i></h2>
       <ul>
         <li>Turn off any appliances that use up electricity when not in use.</li>
         <li>Use renewable sources of energy for electricity (e.g., solar energy, wind energy, etc.).</li>
@@ -62,29 +73,34 @@
         <li>Use a cup full of water while brushing your teeth.</li>
       </ul>
     </div>
+  </div>
 
-    <div class="solutions">
-      <img src="..\images\solutionsOutsidePic.jpg" height="400" width="300" />
-      <div>
-        <h2 style="padding: 10px; background-color: #7993a0; color: white;"><i>OUTSIDE</i></h2>
-        <ul>
-          <li>Minimize the use of disposable utensils when eating out.</li>
-          <li>Walk, bike, use public transportation, or carpool to where you are going.</li>
-          <li>Use reusable masks to abide with COVID-19 health protocols. If not possible, dispose of surgical masks
-            properly.</li>
-          <li>Take some time to appreciate nature when going outside.</li>
-          <li>Purchase second-hand or thrifted items as much as possible.</li>
-          <li>Switch to biogas for your vehicles.</li>
-        </ul>
-      </div>
+  <div class="solutions">
+    <div>
+      <img src="..\images\solutionsOutsidePic.jpg" />
     </div>
+    <div>
+      <h2><i>OUTSIDE</i></h2>
+      <ul>
+        <li>Minimize the use of disposable utensils when eating out.</li>
+        <li>Walk, bike, use public transportation, or carpool to where you are going.</li>
+        <li>Use reusable masks to abide with COVID-19 health protocols. If not possible, dispose of surgical masks
+          properly.</li>
+        <li>Take some time to appreciate nature when going outside.</li>
+        <li>Purchase second-hand or thrifted items as much as possible.</li>
+        <li>Switch to biogas for your vehicles.</li>
+      </ul>
+    </div>
+  </div>
 
-    <div class="solutions">
-      <img src="..\images\solutionsAtSchoolPic.jpg" height="400" width="300" />
-      <h2 style="padding: 10px; background-color: #7993a0; color: white;"><i>AS A STUDENT</i></h2>
+  <div class="solutions">
+    <div>
+      <img src="..\images\solutionsAtSchoolPic.jpg" />
+    </div>
+    <div>
+      <h2><i>AS A STUDENT</i></h2>
       <ul>
         <li>Bring a water bottle to school to minimize the use of plastic water bottles.</li>
-        <li>Aliquam quis magna vulputate, porta velit a, luctus lorem. </li>
         <li>Create scratch paper from used pieces of paper that still have space.</li>
         <li>If possible, go digital to minimize the use of paper and writing materials.</li>
         <li>Participate in school activities that benefit the environment (e.g., tree planting, recycling programs,
@@ -93,10 +109,14 @@
         </li>
       </ul>
     </div>
+  </div>
 
-    <div class="solutions">
-      <img src="..\images\solutionsAsAMemberOfTheWorkforcePic.jpg" height="400" width="300" />
-      <h2 style="padding: 10px; background-color: #7993a0; color: white;"><i>AS A MEMBER OF THE WORKFORCE</i></h2>
+  <div class="solutions">
+    <div>
+      <img src="..\images\solutionsAsAMemberOfTheWorkforcePic.jpg" />
+    </div>
+    <div>
+      <h2><i>AS A MEMBER OF THE WORKFORCE</i></h2>
       <ul>
         <li>Try adopting a paperless lifestyle. Use digital devices to your advantage.</li>
         <li>If you are a business owner, try to find ways for your company to adopt eco-friendly practices.</li>
@@ -105,11 +125,12 @@
         <li>Educate workmates on how to conserve natural resources</li>
       </ul>
     </div>
+  </div>
 
-    <!--Back to Top Link -->
-    <div align="center">
-      <a class="backToTop" href="#top">Back to Top</a>
-    </div>
+  <!--Back to Top Link -->
+  <div align="center">
+    <a class="backToTop" href="#top">Back to Top</a>
+  </div>
 
 </body>
 
