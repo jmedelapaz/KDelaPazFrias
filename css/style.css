@@ -75,6 +75,7 @@ html, body {
   text-align: center;
   padding: 4vh 0;
   margin-top: 10vh;
+  bottom: 0;
   clear: left;
 }
 
@@ -119,6 +120,14 @@ html, body {
 }
 
 /* Causes and Effects */
+.causeseffectshtml h3 {
+  color: #41626c;
+}
+
+.causeseffectshtml h2 {
+  color: #3e563e;
+}
+
 .theproblem{
   column-count: 2;
   padding-top: 30px;
@@ -137,6 +146,8 @@ html, body {
   padding-right: 80px;
   column-gap: 40px;
   line-height: 1.5;
+  position:relative;
+  top:-50px;
 }
 
 .header{
@@ -156,7 +167,7 @@ html, body {
   padding: 10px 0px;
   margin: 20px 0px;
   text-align: center;
-  background-color: #c4d3d7;
+  background-color: #8fa588;
 }
 
 .solutions{
@@ -183,7 +194,7 @@ html, body {
 
 .solutions h2{
   padding: 10px;
-  background-color: #7993a0;
+  background-color: #42603e;
   color: white;
 }
 
@@ -195,5 +206,5 @@ html, body {
 }
 
 .references h3{
-  color: #7993a0;
+  color: #557c57;
 }
